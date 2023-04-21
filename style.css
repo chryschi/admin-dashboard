@@ -1,6 +1,7 @@
 :root {
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Kanit", Arial, Helvetica, sans-serif;
+  font-weight: 300;
   --base-color: #d6d3d1; /* Tailwind Yellow */
   --main-color: #22c55e; /* Tailwind Green*/
   --secondary-color: #fff;
