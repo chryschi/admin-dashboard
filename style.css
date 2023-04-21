@@ -6,8 +6,14 @@
 
 body {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 250px 4fr;
   grid-template-rows: 1fr 4fr;
+}
+
+li {
+  list-style-type: none;
+  display: grid;
+  align-self: center;
 }
 
 header {
@@ -16,14 +22,43 @@ header {
 
 .sidebar {
   grid-row: 1 / 3;
+  display: grid;
+  grid-template-rows: 70px 300px 200px;
+}
+
+.sidebar ul {
+  display: grid;
+}
+
+.logo-container {
+  display: grid;
+  align-self: center;
 }
 
 main {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
 
 .side-content {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+.ann-container {
+  display: grid;
+  gap: 20px;
+}
+
+.users {
+  display: grid;
+  gap: 20px;
 }
