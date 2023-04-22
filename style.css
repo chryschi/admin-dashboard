@@ -101,7 +101,7 @@ input:focus {
   display: flex;
   justify-content: end;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   padding: 0 10px;
 
   font-size: 1.2em;
