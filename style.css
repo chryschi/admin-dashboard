@@ -16,7 +16,7 @@
   --font-size-sidebar: 1.1em;
   --font-size-main: 0.7em;
 
-  --image-width: 24px;
+  --icon-width: 24px;
   --card-icons-padding: 10px;
 }
 
@@ -126,8 +126,8 @@ p.name-big {
   grid-row: 1 / 3;
   display: grid;
   grid-template-rows: 70px 300px 150px;
-  gap: 30px;
-  padding: 0px 20px;
+  gap: 15px;
+  padding: 0px 10px;
 
   font-size: var(--font-size-sidebar);
   color: white;
@@ -137,11 +137,17 @@ p.name-big {
 .sidebar ul {
   display: grid;
   font-size: 1.2em;
+  margin: 10px;
 }
 
 .logo-container {
-  display: grid;
-  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo-container img {
+  width: 50px;
 }
 
 main {
@@ -252,7 +258,7 @@ main h2 {
 }
 
 .icon {
-  width: var(--image-width);
+  width: var(--icon-width);
 }
 
 span {
