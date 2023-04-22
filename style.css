@@ -31,7 +31,8 @@ body {
 
 li {
   list-style-type: none;
-  display: grid;
+  display: flex;
+  gap: 10px;
   align-self: center;
   font-weight: bold;
 }
@@ -53,13 +54,15 @@ header {
 header ul {
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
-  gap: 10px;
+  gap: 30px;
+  color: var(--secondary-color);
 }
 
 header li {
   background-color: var(--main-color);
   border-radius: var(--border-radius-buttons);
   padding: 10px;
+  display: grid;
 }
 
 .search-bar {
@@ -190,4 +193,16 @@ main h2 {
 .users {
   border-radius: var(--border-radius-cards);
   background-color: var(--secondary-color);
+}
+
+img {
+  width: 24px;
+}
+
+a {
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ffffff8e;
 }
