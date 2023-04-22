@@ -29,7 +29,7 @@
 body {
   display: grid;
   grid-template-columns: 250px 4fr;
-  grid-template-rows: 1fr 7fr;
+  grid-template-rows: 1fr 5fr;
 }
 
 li {
@@ -196,8 +196,8 @@ main h2 {
 }
 
 .side-content {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -241,8 +241,8 @@ main h2 {
 }
 
 span {
+  flex: 0 0 auto;
   display: inline-block;
-
   overflow: hidden;
   border-radius: 50%;
 }
