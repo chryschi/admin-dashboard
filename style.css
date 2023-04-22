@@ -32,6 +32,10 @@ body {
   grid-template-rows: 1fr min(3fr);
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 li {
   list-style-type: none;
   display: flex;
@@ -181,6 +185,10 @@ main h2 {
   margin-bottom: 2px;
 }
 
+main img:hover {
+  cursor: pointer;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -294,6 +302,9 @@ span img {
 }
 
 .sidebar a {
+  display: flex;
+  gap: 10px;
+  align-content: center;
   transition: 0.3s;
 }
 
