@@ -222,7 +222,10 @@ main h2 {
 }
 
 .user {
+  display: flex;
+  gap: 10px;
   font-size: 1.4em;
+  align-items: center;
 }
 
 .ann-container,
