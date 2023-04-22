@@ -197,7 +197,7 @@ main h2 {
   position: absolute;
   content: "";
   width: 100%;
-  height: calc(2 * var(--card-icons-padding) + var(--image-width));
+  height: calc(2 * var(--card-icons-padding) + var(--icon-width));
   bottom: 0;
   left: 0;
 
