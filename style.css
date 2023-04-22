@@ -71,15 +71,30 @@ header li {
 }
 
 .search-bar {
-  display: grid;
-  justify-self: center;
-  align-self: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
 }
 
 input {
-  background-color: var(--base-color);
-  border-radius: 7px;
   border-style: none;
+  background-color: var(--base-color);
+  border-radius: 20px;
+  outline: none;
+  height: 30px;
+  max-width: 500px;
+  flex: 1 0 auto;
+  padding: 5px;
+}
+
+input:hover {
+  opacity: 0.6;
+}
+
+input:focus {
+  border: 1px solid hsla(0, 0%, 0%, 0.456);
+  opacity: 0.6;
 }
 
 .status {
