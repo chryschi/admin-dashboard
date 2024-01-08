@@ -26,10 +26,16 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   display: grid;
   grid-template-columns: 250px 4fr;
-  grid-template-rows: 1fr min(3fr);
+  grid-template-rows: auto 1fr;
 }
 
 a:hover {
@@ -121,7 +127,7 @@ input:focus {
 
 .hi-there {
   display: flex;
-  flex: 1 0 auto;
+  flex: 1;
   gap: 10px;
   align-items: center;
 }
